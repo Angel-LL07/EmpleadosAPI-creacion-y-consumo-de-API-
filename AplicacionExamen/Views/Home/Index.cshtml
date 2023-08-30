@@ -1,0 +1,47 @@
+﻿@model List<Empleado>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="card">
+	<div class="card-header">
+		<a asp-action="Empleado" asp-controller="Home" asp-route-idEmpleado="0" class="btn btn-success">Registrar Empleado</a>
+     </div>
+		<hr />
+		<div class="card-body">
+			<table class="table">
+			<thead>
+				<tr>
+					@*<th>Id</th>*@
+					<th>Nombre</th>
+					<th>Apellido Paterno</th>
+					<th>Apellido Materno</th>
+					<th>Telefono</th>
+					<th>Sexo</th>
+					<th>FechaNacimiento</th>
+					<th>AreaId</th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach(var item in Model)
+				{
+					<tr>
+						@*<td>@item.Id</td>*@
+						<td>@item.Nombre</td>
+						<td>@item.ApellidoPaterno</td>
+						<td>@item.ApellidoMaterno</td>
+						<td>@item.Telefono</td>
+						<td>@item.Sexo</td>
+						<td>@item.FechaNacimiento.ToString("dd-MM-yyyy")</td>
+						<td>@item.AreaId</td>
+						<td>
+							<a asp-action="Empleado" asp-controller="Home" asp-route-id="@item.Id" class="btn btn-primary btn-sm">Editar</a>
+					    </td>
+					</tr>
+				}
+			</tbody>
+		</table>
+		</div>
+	</div>
+</div>

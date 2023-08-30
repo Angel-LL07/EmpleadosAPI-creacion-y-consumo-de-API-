@@ -1,0 +1,15 @@
+C:\Users\angel\OneDrive\Escritorio\ExamenAPI\Examen.Aplicacion\bin\Debug\net6.0\Examen.Aplicacion.deps.json
+C:\Users\angel\OneDrive\Escritorio\ExamenAPI\Examen.Aplicacion\bin\Debug\net6.0\Examen.Aplicacion.dll
+C:\Users\angel\OneDrive\Escritorio\ExamenAPI\Examen.Aplicacion\bin\Debug\net6.0\Examen.Aplicacion.pdb
+C:\Users\angel\OneDrive\Escritorio\ExamenAPI\Examen.Aplicacion\bin\Debug\net6.0\Examen.Dominio.dll
+C:\Users\angel\OneDrive\Escritorio\ExamenAPI\Examen.Aplicacion\bin\Debug\net6.0\Examen.Dominio.pdb
+C:\Users\angel\OneDrive\Escritorio\ExamenAPI\Examen.Aplicacion\obj\Debug\net6.0\Examen.Aplicacion.csproj.AssemblyReference.cache
+C:\Users\angel\OneDrive\Escritorio\ExamenAPI\Examen.Aplicacion\obj\Debug\net6.0\Examen.Aplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\angel\OneDrive\Escritorio\ExamenAPI\Examen.Aplicacion\obj\Debug\net6.0\Examen.Aplicacion.AssemblyInfoInputs.cache
+C:\Users\angel\OneDrive\Escritorio\ExamenAPI\Examen.Aplicacion\obj\Debug\net6.0\Examen.Aplicacion.AssemblyInfo.cs
+C:\Users\angel\OneDrive\Escritorio\ExamenAPI\Examen.Aplicacion\obj\Debug\net6.0\Examen.Aplicacion.csproj.CoreCompileInputs.cache
+C:\Users\angel\OneDrive\Escritorio\ExamenAPI\Examen.Aplicacion\obj\Debug\net6.0\Examen.Aplicacion.csproj.CopyComplete
+C:\Users\angel\OneDrive\Escritorio\ExamenAPI\Examen.Aplicacion\obj\Debug\net6.0\Examen.Aplicacion.dll
+C:\Users\angel\OneDrive\Escritorio\ExamenAPI\Examen.Aplicacion\obj\Debug\net6.0\refint\Examen.Aplicacion.dll
+C:\Users\angel\OneDrive\Escritorio\ExamenAPI\Examen.Aplicacion\obj\Debug\net6.0\Examen.Aplicacion.pdb
+C:\Users\angel\OneDrive\Escritorio\ExamenAPI\Examen.Aplicacion\obj\Debug\net6.0\ref\Examen.Aplicacion.dll

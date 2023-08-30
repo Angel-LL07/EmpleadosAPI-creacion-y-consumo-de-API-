@@ -1,0 +1,59 @@
+﻿@using AplicacionExamen.Models;
+@model Empleado
+@{
+	ViewData["Title"]="Empledados";
+}
+
+<div class="card">
+	<div class="card-header">
+		@ViewBag.Accion
+     </div>
+		<div class="card-body">
+			<form asp-action="Empleado" asp-controller="Home" method="post">
+				<input type="hidden" asp-for="Id" />
+				<div class="mb-2">
+					<label class="form-label" asp-for="Nombre"></label>
+					<input type="text" class="form-control form-control-sm" asp-for="Nombre" />
+					<span asp-validation-for="Nombre" class="text-danger"></span>
+				</div>
+				<div class="mb-2">
+					<label class="form-label" asp-for="ApellidoPaterno"></label>
+					<input type="text" class="form-control form-control-sm" asp-for="ApellidoPaterno" />
+					<span asp-validation-for="ApellidoPaterno" class="text-danger"></span>
+				</div>
+				<div class="mb-2">
+					<label class="form-label" asp-for="ApellidoMaterno"></label>
+					<input type="text" class="form-control form-control-sm" asp-for="ApellidoMaterno" />
+					<span asp-validation-for="ApellidoMaterno" class="text-danger"></span>
+				</div>
+				<div class="mb-2">
+					<label class="form-label" asp-for="Telefono"></label>
+					<input type="text" class="form-control form-control-sm" asp-for="Telefono" />
+					<span asp-validation-for="Telefono" class="text-danger"></span>
+				</div>
+				<div class="mb-2">
+					<label class="form-label" asp-for="Sexo"></label>
+				<select asp-for="Sexo" class="form-select" >
+						<option disabled selected>--Seleccione--</option>
+						<option value="F"  >F</option>
+					<option value="M" >M</option>
+					</select>
+					<span asp-validation-for="Sexo" class="text-danger"></span>
+				</div>
+				<div class="mb-2">
+					<label class="form-label" asp-for="FechaNacimiento"></label>
+				    <input type="date" value="28-08-2023" class="form-control form-control-sm" asp-for="FechaNacimiento" />
+				<span asp-validation-for="FechaNacimiento" class="text-danger"></span>
+				</div>
+				<div class="mb-2">
+					<label class="form-label" asp-for="AreaId"></label>
+					<input type="number" min="1" class="form-control form-control-sm" asp-for="AreaId" />
+					<span asp-validation-for="AreaId" class="text-danger"></span>
+				</div>
+
+				<button type="submit" class="btn btn-success btn-sm">Guardar</button>
+			<a asp-action="Index"  asp-controller="Home" class="btn btn-warning btn-sm">Regresar</a>
+			</form>
+		</div>
+	</div>
+</div>
